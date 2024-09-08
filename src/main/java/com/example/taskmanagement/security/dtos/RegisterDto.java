@@ -1,7 +1,9 @@
 package com.example.taskmanagement.security.dtos;
 
+import jakarta.validation.constraints.NotBlank;
+
 public record RegisterDto(
-    String username,
-    String password
+    @NotBlank String username,
+    @NotBlank String password
 ) {
 }

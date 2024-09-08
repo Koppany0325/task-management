@@ -8,7 +8,7 @@ import com.example.taskmanagement.users.entities.Role;
 import com.example.taskmanagement.users.entities.User;
 import com.example.taskmanagement.users.repositories.RoleRepository;
 import com.example.taskmanagement.users.repositories.UserRepository;
-import io.swagger.v3.oas.annotations.Operation;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -42,7 +42,7 @@ public class AuthController {
     private final JWTGenerator jwtGenerator;
 
     @PostMapping("login")
-    public ResponseEntity<AuthResponseDto> login(@RequestBody LoginDto loginDto){
+    public ResponseEntity<AuthResponseDto> login(@Valid @RequestBody LoginDto loginDto){
         Authentication authentication = authenticationManager.authenticate(
             new UsernamePasswordAuthenticationToken(loginDto.username(),
                 loginDto.password()));
@@ -52,7 +52,7 @@ public class AuthController {
     }
 
     @PostMapping("register")
-    public ResponseEntity<String> register(@RequestBody RegisterDto registerDto) {
+    public ResponseEntity<String> register(@Valid @RequestBody RegisterDto registerDto) {
         if(userRepository.existsByUsername(registerDto.username())) {
             return new ResponseEntity<>("Username is taken!", HttpStatus.BAD_REQUEST);
         }

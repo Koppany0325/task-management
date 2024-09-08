@@ -29,8 +29,6 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class TaskController {
 
-    //TODO VALIDATE
-
     private final TaskService taskService;
 
     @GetMapping("/{id}")
