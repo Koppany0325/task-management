@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.taskmanagement.tasks.controllers.TaskControllerTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2024-09-08T21:13:13" hostname="DESKTOP-M86UU6C" time="0.655">
+  <properties/>
+  <testcase name="listTasksAfterAsAdmin()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.512"/>
+  <testcase name="listTasksBeforeAsAdmin()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.009"/>
+  <testcase name="countTasksByStatusAsAdmin()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.008"/>
+  <testcase name="listTasks()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.008"/>
+  <testcase name="listTasksBefore()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.008"/>
+  <testcase name="listTasksAfter()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.007"/>
+  <testcase name="updateTask()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.034"/>
+  <testcase name="getTask()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.007"/>
+  <testcase name="listTasksAsAdmin()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.007"/>
+  <testcase name="countTasksByStatus()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.006"/>
+  <testcase name="createTask()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.007"/>
+  <testcase name="deleteTask()" classname="com.example.taskmanagement.tasks.controllers.TaskControllerTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

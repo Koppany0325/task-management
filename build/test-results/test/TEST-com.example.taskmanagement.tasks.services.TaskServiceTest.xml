@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.taskmanagement.tasks.services.TaskServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-09-08T21:13:14" hostname="DESKTOP-M86UU6C" time="0.555">
+  <properties/>
+  <testcase name="listTasks()" classname="com.example.taskmanagement.tasks.services.TaskServiceTest" time="0.457"/>
+  <testcase name="listTasksBefore()" classname="com.example.taskmanagement.tasks.services.TaskServiceTest" time="0.014"/>
+  <testcase name="updateTask()" classname="com.example.taskmanagement.tasks.services.TaskServiceTest" time="0.014"/>
+  <testcase name="getTask()" classname="com.example.taskmanagement.tasks.services.TaskServiceTest" time="0.012"/>
+  <testcase name="countByStatus()" classname="com.example.taskmanagement.tasks.services.TaskServiceTest" time="0.008"/>
+  <testcase name="createTask()" classname="com.example.taskmanagement.tasks.services.TaskServiceTest" time="0.019"/>
+  <testcase name="deleteTask()" classname="com.example.taskmanagement.tasks.services.TaskServiceTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
